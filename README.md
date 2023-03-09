@@ -2,7 +2,7 @@
 
 ### Install the package
 ```
-    yarn install
+$ yarn install
 ```
 
 ### Medium article
