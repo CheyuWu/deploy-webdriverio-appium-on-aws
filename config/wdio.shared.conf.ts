@@ -1,43 +1,8 @@
-/**
- * All not needed configurations, for this boilerplate, are removed.
- * If you want to know which configuration options you have then you can
- * check https://webdriver.io/docs/configurationfile
- */
 export const config: WebdriverIO.Config = {
-    //
-    // ====================
-    // Runner Configuration
-    // ====================
-    // WebdriverIO allows it to run your tests in arbitrary locations (e.g. locally or
-    // on a remote machine).
     runner: "local",
-    //
-    // ==================
-    // Specify Test Files
-    // ==================
-    // The test-files are specified in:
-    // - wdio.android.browser.conf.ts
-    // - wdio.android.app.conf.ts
-    // - wdio.ios.browser.conf.ts
-    // - wdio.ios.app.conf.ts
-    //
-    /**
-     * NOTE: This is just a place holder and will be overwritten by each specific configuration
-     */
+    port: 4723,
+    path: '/wd/hub',
     specs: [],
-    //
-    // ============
-    // Capabilities
-    // ============
-    // The capabilities are specified in:
-    // - wdio.android.browser.conf.ts
-    // - wdio.android.app.conf.ts
-    // - wdio.ios.browser.conf.ts
-    // - wdio.ios.app.conf.ts
-    //
-    /**
-     * NOTE: This is just a place holder and will be overwritten by each specific configuration
-     */
     capabilities: [],
     //
     // ===================
