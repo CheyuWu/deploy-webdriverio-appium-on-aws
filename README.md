@@ -2,7 +2,7 @@
 
 ### Install the package
 ```
-$ yarn install
+$ npm install
 ```
 
 #### Before you upload the file
